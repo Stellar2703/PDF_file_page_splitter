@@ -1,8 +1,8 @@
 import PyPDF2
 from PyPDF2 import PdfReader, PdfWriter
 # Example usage
-pdf_file = 'test2.pdf'
-text_to_find = 'Register No'
+pdf_file = 'FILENAME.pdf'
+text_to_find = 'ENTER THE TEXT BY WHICH YOU HAVE TO SPLIT THE PAGES'
 page_numbers = []
 with open(pdf_file, 'rb') as file:
     reader = PyPDF2.PdfReader(file)
